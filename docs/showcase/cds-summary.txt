@@ -1,0 +1,46 @@
+$ cargo run --example cds_summary -- schemas/confirmation/examples/credit-derivatives
+file                                         reference                      red/id          notional ccy  coupon effective  maturity
+cd-ex01-long-asia-corp-fixreg                ACOM CO., LTD.                 004CC9         500000000 JPY    70bp 2002-12-05 2007-12-05
+cd-ex02-2003-short-asia-corp-fixreg          Aiful Corporation              008FAQ         500000000 JPY    70bp 2002-12-05 2007-12-05
+cd-ex02-short-asia-corp-fixreg               Aiful Corporation              008FAQ         500000000 JPY    70bp 2002-12-05 2007-12-05
+cd-ex03-long-aussie-corp-fixreg              AMP Group Holdings Limited     GG3682          10000000 USD    56bp 2002-12-04 2007-12-04
+cd-ex04-short-aussie-corp-fixreg             Amcor Ltd                      0C575S          10000000 USD    56bp 2002-12-04 2007-12-04
+cd-ex05-long-emasia-corp-fixreg              People's Republic of China     7I343A           5000000 USD    85bp 2002-08-28 2007-08-28
+cd-ex06-long-emeur-sov-fixreg                Republic of Bulgaria           1D216P           5000000 USD    27bp 2002-07-11 2006-07-11
+cd-ex07-2003-long-euro-corp-fixreg           Invensys plc                   4A7324           5000000 EUR    90bp 2002-12-03 2008-01-15
+cd-ex07-long-euro-corp-fixreg                Invensys plc                   4A7324           5000000 EUR    90bp 2002-12-03 2008-01-15
+cd-ex08-2003-short-euro-corp-fixreg          Abbey National PLC             002BB2           5000000 EUR    90bp 2002-12-03 2008-01-15
+cd-ex08-short-euro-corp-fixreg               Abbey National PLC             002BB2           5000000 EUR    90bp 2002-12-03 2008-01-15
+cd-ex09-long-euro-sov-fixreg                 Republic of Italy              4AB951          50000000 USD    11bp 2002-11-14 2007-11-14
+cd-ex10-2003-long-us-corp-fixreg             Agrium Inc.                    008HA7           5000000 USD   100bp 2002-12-04 2007-09-06
+cd-ex10-long-us-corp-fixreg                  Agrium Inc.                    008HA7           5000000 USD   100bp 2002-12-04 2007-09-06
+cd-ex11-2003-short-us-corp-fixreg            Tenet Healthcare Corporation   8G836J           5000000 USD   100bp 2002-12-04 2007-09-06
+cd-ex11-short-us-corp-fixreg                 Tenet Healthcare Corporation   8G836J           5000000 USD   100bp 2002-12-04 2007-09-06
+cd-ex12-long-emasia-sov-fixreg               Kingdom of Thailand            8GB54M          20000000 USD   120bp 2002-12-03 2007-12-03
+cd-ex13-long-asia-sov-fixreg                 Japan                          4B818G          10000000 USD    15bp 2002-11-30 2005-11-30
+cd-ex14-long-emlatin-corp-fixreg             Banco Nacional de Desenvolvime 05EF75           1800000 USD  3650bp 2002-08-28 2004-08-28
+cd-ex15-long-emlatin-sov-fixreg              Federative Republic of Brazil  115CCB          10000000 USD  2660bp 2002-11-23 2007-11-23
+cd-ex16-short-us-corp-fixreg-recovery-factor Tenet Healthcare Corporation   8G836J           5000000 USD   100bp 2002-12-04 2007-09-06
+cd-ex17-short-us-corp-portfolio-compression  Tenet Healthcare Corporation   8G836J           5000000 USD   100bp 2002-12-04 2007-09-06
+cd-ex18-standard-north-american-corp         TENET HEALTHCARE CORPORATION   8G836J           5000000 USD   100bp 2009-03-26 2014-06-20
+cd-ex19-cdx-index-option-pred-clearing       Dow Jones CDX NA IG.2          -               50000000 USD   190bp 2006-03-21 2011-06-20
+cd-indamt-ex01-short-us-corp-fixreg          Tenet Healthcare Corporation   8G836J           5000000 USD   100bp 2002-12-04 2007-09-06
+cd-swaption-1                                Entity3                        -               25000000 USD   186bp 2006-03-06 2012-03-21
+cd-swaption-2                                Entity1                        -               10000000 USD   850bp 2006-09-21 2011-09-21
+cdindex-ex01-cdx                             Dow Jones CDX NA IG.2          -               25000000 USD    60bp 2004-03-23 2009-03-20
+cdindex-ex02-iTraxx                          Dow Jones iTraxx Europe Consum -               25000000 USD       - -          2010-03-20
+cdindex-ex03-iTraxx-contractual-supplement   Dow Jones iTraxx Europe Consum -               25000000 EUR       - -          2010-03-20
+cdindex-ex04-iBoxx                           iBoxx EUR Corporates           DE0006301161    25000000 USD       - 2014-03-23 2019-03-20
+cdindex-ex05-SP                              S&P/ISDA U.S. 150 Credit Sprea 7FC48VAA0        5000000 USD    85bp 2014-05-20 2015-05-20
+cdindex-ex06-iBoxx-ois                       iBoxx EUR Corporates           DE0006301161    25000000 USD       - 2021-08-18 2025-08-18
+cds-ELCDS-ReferenceObligation                CompanyDEF                     -               10000000 USD   130bp 2007-11-01 2010-06-17
+cds-basket-tranche                           -                              -               25000000 USD    60bp 2004-03-23 2009-03-20
+cds-basket                                   -                              -               25000000 USD    60bp 2004-03-23 2009-03-20
+cds-custom-basket                            -                              -               25000000 USD    60bp 2004-03-23 2009-03-20
+cds-index-tranche                            Dow Jones iTraxx Europe Consum -               25000000 USD       - -          2010-03-20
+cds-loan-ReferenceObligation                 CompanyABC                     -               10000000 USD   130bp 2006-10-27 2010-06-27
+cds-loan-SecuredList                         CompanyDEF                     -                5000000 USD   115bp 2006-12-02 2010-03-21
+cds-mortgage-CMBS                            MERRILL LYNCH/COUNTRYWIDE COMM -               15000000 USD   500bp 2006-11-17 2046-07-12
+cds-mortgage-RMBS                            New Century Home Equity Loan T -               15000000 USD   500bp 2006-10-11 2035-09-25
+cdx-index-option                             Dow Jones CDX NA IG.2          -               50000000 USD   190bp 2006-03-21 2011-06-20
+itraxx-index-option                          Dow Jones iTraxx Europe Consum -              250000000 EUR    40bp 2006-03-20 2011-06-20

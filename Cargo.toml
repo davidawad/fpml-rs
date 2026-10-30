@@ -1,0 +1,23 @@
+[package]
+name = "fpml-rs"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "Typed Rust bindings for FpML 5.12 credit default swap confirmations"
+repository = "https://github.com/davidawad/fpml-rs"
+
+[lib]
+name = "fpml"
+path = "src/lib.rs"
+
+[workspace]
+members = ["xtask"]
+resolver = "2"
+
+[dependencies]
+quick-xml = { version = "0.38", features = ["serialize"] }
+serde = { version = "1", features = ["derive"] }
+roxmltree = "0.20"
+serde_path_to_error = "0.1"
+
+[dev-dependencies]

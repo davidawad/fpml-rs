@@ -1,0 +1,13 @@
+[package]
+name = "xtask"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+publish = false
+
+[dependencies]
+anyhow = "1"
+xsd-parser = "1.5.2"
+prettyplease = "0.2"
+quote = "1"
+syn = { version = "2", features = ["full"] }
